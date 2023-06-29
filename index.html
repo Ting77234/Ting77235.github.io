@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./CSS/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="./CSS/MyCss.css">
+       <script src="./JS/bootstrap.bundle.js" type="text/javascript"></script>
+       <script src="./JS/Jquery.js" type="text/javascript"></script>
+    </head>
+    <body data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="10" tabindex="10">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-primary"  id="MyNav">
+          <div style="width: 30px;"></div>
+            <a class="navbar-brand">碧蓝航线</a>
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="https://wiki.biligame.com/blhx/%E9%A6%96%E9%A1%B5">前往Wiki</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://game.bilibili.com/blhx/#p-1">前往官网</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./report.html">查看实验报告</a>
+              </li>
+            </ul>
+          </nav>
+         <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2">
+                  <div id="list-example" class="list-group sticky-top">
+                    <a class="list-group-item list-group-item-action" href="#MyNav">标题</a>
+                    <a class="list-group-item"  href="#Title1">角色预览</a>
+                      <a class="list-group-item" href="#Title2" id="MyA1">语音预览</a>
+                      <a class="list-group-item" href="#Title3" id="MyA2">原型舰介绍</a>
+                  </div>
+                </div>
+                <div class="col-md-8 Context">
+                    <div class="row">
+                        <!-- <div class="col-md-2">
+                          <div class="card justify-context—center MyCard">
+                             <img src="./resource/Card.jpg" class="card-img-top img-fluid">
+                             <div class="card-title">可爱喵</div>        
+                       </div>
+                        </div> -->
+                        <!-- <div class="col-md-8"> -->
+                            <div id="carousel" class="carousel slide">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="./resource/1.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="./resource/2.png" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="./resource/3.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                        </div>
+                        <!-- </div> -->
+                        <!-- <div class="col-md-2">
+                          <div class="card justify-context—center">
+                              <img src="./resource/Card2.jpg" class="card-img-top img-fluid">
+                              <div class="card-title">可爱喵</div>
+                        </div>
+                      </div> -->
+                    </div>
+                    <div class="row">
+                      <h1 class="MyTitle">角色选择</h1>
+                     </div>
+                    <div class="row" >
+                      <ul class="nav nav-pills d-flex op">
+                        <li class="nav-item flex-grow-1 op">
+                          <a class="nav-link active" data-bs-toggle="tab" href="#huayuan" id="Show1">花园（新泽西）</a>
+                        </li>
+                        <li class="nav-item flex-grow-1 op">
+                          <a class="nav-link" data-bs-toggle="tab" href="#xinnong" id="Show2">信浓（鵗） </a>
+                        </li>
+                        <li class="nav-item flex-grow-1 op">
+                          <a class="nav-link" data-bs-toggle="tab" href="#tashigan" id="Show3">塔什干</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content">
+                        <div class="row">
+                          <h1 class="MyTitle" id="Title1">角色预览</h1>
+                         </div>
+                        <div class="tab-pane active container" id="huayuan">
+                          <div class="row">
+                            <img src="./resource/白雪.jpg">
+                          </div>
+                          <div class="list-group">
+                            <div class="row">
+                              <h3 class="MyTitle"  id="Title2">语音预览</h3>
+                            </div>
+                            <div class="list-group-item list-group-item-action">
+                             <img id="audio1" src="./resource/audio.png" class="img-fluid audio">
+                             <div>欢迎Honey~♪今天要从哪个任务开始做起呢？</div>
+                            </div>
+                            <div class="list-group-item list-group-item-action">
+                              <img id="audio2" src="./resource/audio.png" class="img-fluid audio">
+                             <div>♪~在津津有味地看着什么?当然是看Honey啦~难道只准你看我看到出神，不许让我看你看到发呆吗？呼呼~♡</div>
+                            </div>
+                            <div class="list-group-item list-group-item-action">
+                              <img id="audio3" src="./resource/audio.png" class="img-fluid audio">
+                              <div>你来啦Honey♪今天也要加油工作哦！</div>
+                            </div>
+                            <div class="list-group-item list-group-item-action">
+                              <img id="audio4" src="./resource/audio.png" class="img-fluid audio">
+                              <div>怎么啦Honey？啊，是想让我摸摸头了吗？</div>
+                            </div>
+                            <div class="list-group-item list-group-item-action">
+                              <img id="audio5" src="./resource/audio.png" class="img-fluid audio">
+                              <div>出击辛苦啦！首先是回家的啾？~……嘻嘻，就是这样~接下来就开始战斗总结吧♪</div>
+                            </div>
+                            <div class="row" id="Title3">
+                              <div class="row">
+                                <h4 class="MyTitle">原型舰介绍</h4>
+                              </div>
+                              <div class="col-md-9">
+                                <p>
+                                  <b>　　新泽西号战列舰（USS New Jersey, BB-62）</b>是美国海军二战初期建造的衣阿华级战列舰2号舰，也是美国海军第二艘以新泽西命名的舰艇。新泽西州有一个人所共知的别称，
+                                  <b>“花园州（The Garden State）”</b>——新泽西确实没那么多花园，但曾以大面积的农场自傲。这个别称赞美了新泽西富饶的农业产出，但最终目的在1876年是为了抗议北边的纽约
+                                  人与西边的宾州人攫取州内农场资源，要州民站出来“保卫自己的花园州”而提出的，曾任州检察长的亚伯拉罕·布朗宁（Abraham Browning）在演讲时就把新泽西称之为花园之州，说新
+                                  泽西就像一个装满美食的大桶（地图上的新泽西确实是有点像只躺着的桶），两头都敞着口，宾夕法尼亚人从一头捞好吃的，另一头则留给了纽约人。现在这个别称已没有了当年的政治内
+                                  涵，而作为横贯连接纽约与费城两大城市群的州，新泽西的地理位置确实可谓优越。<br>
+                                  　　对于衣阿华级战列舰，大家可能更熟悉的是首舰衣阿华与3号舰密苏里，但别称<b>“Big J”</b>与<b>“Black Dragon”</b>的2号舰新泽西在美国海军历史上的地位也异常特殊：<br>
+                                  　　——没错，自新泽西1944年初出现在太平洋战场最前线之时，她便同时被小威廉·哈尔西（第三舰队司令）与斯普鲁恩斯（第五舰队司令），这两位太平洋舰队的股肱栋梁看中，几乎一直
+                                  担任着<b>第三舰队/第五舰队的旗舰（Flagship of the Third/Fifth Fleet）</b>，作为两位传奇舰队司令的座舰。虽然那时美国海军在太平洋上最艰难的时刻已经过去，但战争的胜利
+                                  依旧需要正义之师给予最后一击，新泽西以舰队旗舰的身份见证了这一切，直至东京湾内，直至送在外的美军回家……<br>
+                                  　　二战期间，新泽西共获得9枚战斗之星。但如果包含她战后的连年征战，新泽西全部服役生涯共获得16枚战斗之星（另外7枚分别来自：朝鲜战争4枚，越南战争3枚）。越南战争期间，新泽
+                                  西受海军集体表彰（Navy Unit Commendation）；同时还拥有菲律宾与韩国的总统集体嘉奖（Presidential Unit Citation）。<br>
+                                  　　——也因此，美国战史研究者对她的历史地位有一个定位，她是“美国海军历史上<b>最富荣誉的战列舰</b>（Most decorated battleship in the US Navy's history）”
+                                  </p>
+                              </div>
+                              <div class="col-md-3">
+                                <div class="card">
+                                  <img src="./resource/新泽西1.jpg" alt="..." class="card-img-top img-thumbnail">
+                                  <p class="card-text PI">新泽西号战列舰（1943年）</p>
+                                </div>
+                                <div class="card">
+                                  <img src="./resource/新泽西2.jpg" alt="..." class="card-img-top img-thumbnail">
+                                  <p class="card-text PI">新泽西号战列舰（博物馆）</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                                <ul>
+                                  <b>性能数据</b>
+                                  <ul>
+                                    <li>排水量：48110 吨（标准）；57540 吨（满载）</li>
+                                  <li>长：270.4 米</li>
+                                  <li>宽：33.0 米</li>
+                                  <li>吃水：11.0 米</li>
+                                  <li>动力：212000 匹</li>
+                                  <li>装置：8 × 巴布科克-威尔科克斯式燃油型水管锅炉；4 × 通用电气电力式齿轮传动型蒸气轮机；4 × 推进器</li>
+                                  <li>航速：33 节</li>
+                                  <li>航程：14890 海里/15 节</li>
+                                  <li>编制：1921 人</li>
+                                  <li>武器：3 × 三联装406mm主炮MK7；10 × 双联装127mm副炮；20 × 四联40mm博福斯对空机炮；49 × 20mm厄利孔高射炮</li>
+                                  <li>装甲：水线装甲带：307mm；水密隔舱：287mm；炮座：295-439mm；炮塔：495mm；甲板：38+152mm</li>
+                                  <li>舰载机：3 × OS2U翠鸟式水上飞机</li>
+                                  <li>其它：2 × 水上飞机弹射器</li>
+                                  </ul>
+                                </ul>
+                            </div>
+                           </div>
+                        </div>
+                        <div class="tab-pane container" id="xinnong">
+                          <div class="row">
+                            <img src="./resource/信浓.jpg">
+                          </div>
+                          <div class="row">
+                            <h3 class="MyTitle" id="Title4">语音预览</h3>
+                          </div>
+                          <div class="list-group">
+                            <div class="list-group-item list-group-item-action">
+                             <img id="audio6" src="./resource/audio.png" class="img-fluid audio">
+                             <div>欢迎回来，妾身已等候汝多时了。</div>
+                            </div>
+                            <div class="list-group-item list-group-item-action">
+                              <img id="audio7" src="./resource/audio.png" class="img-fluid audio">
+                             <div>月色朦胧，华灯初上…夜色与美酒，皆令人沉醉不已……汝，愿意与妾身共赴这梦幻般的月下之宴吗?  </div>
+                            </div>
+                            <div class="list-group-item list-group-item-action">
+                              <img id="audio8" src="./resource/audio.png" class="img-fluid audio">
+                              <div>亘古不变的星空…兀自圆缺的明月…与之相比，地上的一切，当真宛若梦幻泡影，转瞬即逝……</div>
+                            </div>
+                            <div class="list-group-item list-group-item-action">
+                              <img id="audio9" src="./resource/audio.png" class="img-fluid audio">
+                              <div>今夜月色真美…汝也这么觉得吗，指挥官大人?</div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <h4 class="MyTitle" id="Title5">原型舰介绍</h4>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-9">
+                              <p> 
+                                <b>　　信浓号航空母舰（IJN Shinano, しなの）</b>是旧日本帝国海军于二战期间建造的<b>最大航空母舰</b>，并且刷新了<b>世界上吨位最高的航空母舰</b>的纪录——该记
+                                录直到战后美国兴建<b>福莱斯特级</b>和<b>小鹰级</b>航空母舰才被再次打破。该舰舰名取自日本的古令制国名，<b>信浓国</b>——其大致范围大致相当于今日本的长野县
+                                及周边小部分地区。<br>
+                                　　如果信浓号航空母舰能按设计建成服役，那将成为<b>日本海军有史以来</b>，乃至<b>当时世界上最强的航空母舰</b>（美国中途岛级服役前）。然而，疯狂的赶工、不达
+                                标的质量、缺乏训练有素的飞行员等一系列问题，埋下了一个又一个隐患，让她注定不能有所成就，并最终在命中注定的那一晚沉没。<br>
+                                　　作为<b>大和级战列舰的三号舰（第110号舰）</b>，该舰在横须贺海军工厂（Yokosuka Naval Arsenal）起工建造——根据第二复员省记载，信浓起工日期为1940年4月7日，
+                                但横须贺海军工厂内专用建造大和级战列舰的第六船渠在1940年5月4日才竣工，而信浓开工应在此之后，故起工日期考据存疑。不过确定的是，因为1942年6月<b>中途岛海战</b>
+                                后日本海军海航力量缺失，日本海军紧急决定对航战进行重建，启动一系列紧急航母建造计划（商船改造航母，云龙级航空母舰，改大凤级航空母舰），同时出现“改造信浓为航空母
+                                舰”的讨论。再者于1942年9月，运送460mm主炮（四五口径九四式四〇糎砲）的专用运输舰的<b>樫野</b>在台湾海域执行运输任务时，被黑鲈（USS Growler）击沉，令从吴港运送4
+                                60mm炮至横须贺无比困难。综合因素下，<b>已完工70%</b>的信浓在横须贺船台放弃战列舰建造案，军令部与舰政本部明确要求对信浓进行<b>航母改造</b><br>
+                                　　1944年11月28日，为脱离已在美军攻击范围内的横须贺，进一步完善自身舾装，信浓在没有搭载舰载机的情况下起航前往<b>吴港</b>，与日本残余舰队会合准备紧急投入战
+                                局。该航程由第十七驱逐队（滨风，矶风，雪风）护卫，但在1944年11月29日（约17小时后），信浓在离岸105km的位置被美军潜艇射水鱼的4枚鱼雷<b>命中击沉</b>——竣工后1
+                                0日，首次出航后17时，信浓除了“当时最大航空母舰”外又创造了一个尴尬的纪录，那就是<b>“舰历最短的军舰”</b>。
+                              </p>
+                            </div>
+                            <div class="col-md-3">
+                              <div class="card">
+                                <img src="./resource/信浓旧照.jpg" alt="..." class="card-img-top img-thumbnail">
+                                <p class="card-text PI">信浓号航空母舰，东京湾试航（1944）</p>
+                              </div>
+                              <div class="card">
+                                <img src="./resource/信浓设计图.jpg" alt="..." class="card-img-top img-thumbnail">
+                                <p class="card-text PI">信浓号航空母舰设计图</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                              <ul>
+                                  <b>性能数据</b>
+                                  <ul>
+                                    <li>排水量：约63000 吨（标准）；71890 吨（满载）</li>
+                                    <li>长：266 米</li>
+                                    <li>宽：41.5 米</li>
+                                    <li>吃水：10.3 米</li>
+                                    <li>动力：150000 匹</li>
+                                    <li>装置：12 x ロ号舰本式锅炉；4 x 舰本式蒸汽轮机；4 x 推进器</li>
+                                    <li>航速：27.3 节</li>
+                                    <li>航程：10000 海里/18 节</li>
+                                    <li>编制：2515 人</li>
+                                    <li>武器：8 x 双联装127mm八九式高炮；12 x 28联装120mm喷进炮；37 x 三联装25mm九六式机枪；40 x 单装25mm九六式机枪</li>
+                                    <li>装甲：主装甲带：206-160mm；飞行甲板：76mm</li>
+                                    <li>舰载机：说法较多，随搭载方案47-85架不等</li>
+                                    <li>其它：2 x 21号电探；2 x 13号电探；两座升降机</li>
+                                  </ul>
+                                </ul>
+                              </ul>
+                          </div>
+                        </div>
+                        <div class="tab-pane container" id="tashigan">
+                          <div class="row">
+                            <img src="./resource/塔什干.jpg">
+                          </div>
+                          <div class="row">
+                            <h3 class="MyTitle" id="Title6">语音预览</h3>
+                          </div>
+                          <div class="list-group">
+                            <div class="list-group-item list-group-item-action">
+                             <img id="audio10" src="./resource/audio.png" class="img-fluid audio">
+                             <div>我是塔什干，大家都叫塔什干“天蓝色的巡洋舰”。同志酱也是慕名而追寻塔什干的人吗…这样？真是个没办法的人呢</div>
+                            </div>
+                            <div class="list-group-item list-group-item-action">
+                              <img id="audio11" src="./resource/audio.png" class="img-fluid audio">
+                             <div>看着塔什干就这么开心?……这样？随你高兴吧</div>
+                            </div>
+                            <div class="list-group-item list-group-item-action">
+                              <img id="audio12" src="./resource/audio.png" class="img-fluid audio">
+                              <div>真奇怪，明明塔什干对大家也没有多亲切友好，为什么大家反而更喜欢塔什干了…喂，同志酱，这是为什么？</div>
+                            </div>
+                            <div class="list-group-item list-group-item-action">
+                              <img id="audio13" src="./resource/audio.png" class="img-fluid audio">
+                              <div>虽然还没有完全认识港区的所有舰船，不过塔什干很喜欢这里。大家在认识了真正的塔什干以后都还愿意和塔什干交朋友，…对同志酱当然也…很喜欢！</div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <h4 class="MyTitle" id="Title7">原型舰介绍</h4>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-9">
+                              <p>
+                                <b>　　塔什干号驱逐舰（Tashkent,Ташкент）</b>是苏联海军在二战前订购，并于意大利建造的一艘驱逐领舰。作为苏联海军船舶建造计划，本项目工程代号为
+                                <b>“Project 20-I（проекта 20-И）”</b>，所以亦称“Pr.20-I型驱逐领舰塔什干”。与其他苏联大型军舰均沿用国内大型城市所不同的是，“塔什干”号的得
+                                名初衷并非源于乌兹别克斯坦加盟共和国的首府，而是为了纪念1918年9月5日在解放伏尔加河中游地区所进行的战斗中被白军沿岸火力击沉的伏尔加河区舰队同
+                                名炮船才加以冠名。<br>
+                                　　原本苏联提出的项目订单中，一共向意大利承建方的<b>奥德罗·特尔尼·奥兰多合资公司（简称OTO，或“奥托”）</b>订购了四艘同型舰：一艘在利沃诺的O
+                                  TO造船厂（OTO Shipyard，Livorno）开工建造，另三艘由意大利派遣专家分别来列宁格勒的190号造船厂（日丹诺夫船厂）与尼古拉耶夫的198号造船厂（马蒂
+                                  /南方造船厂）指导建造。可事与愿违，因“苏联船厂内的造舰实操很难适应意大利二次设计图绘与专家意见”（这是“摆在桌面上”的原因，实际背后一定有其他政治
+                                  考量故不得而知），导致最终另三艘“塔什干级”驱逐领舰——巴库（Baku,Баку）与另两艘未命名舰艇<b>取消了建造计划</b>，只有在意大利本土的订单被正常建造
+                                  了出来。所以就结果而言，<b>塔什干没有同级舰</b><br>
+                                  　　1942年7月2日，在德军空袭中<b>坐沉于新罗西斯克</b>，1944年捞起后放弃修复工作，拖往尼古拉耶夫解体。
+                                 　　塔什干号作为二战时期苏联最著名的驱逐舰之一：其在短短一年左右的服役时间里，塔什干及全体黑海舰队的行动依旧为卫国战争南部战场起到了<b>至关重
+                                  要的作用</b>。同时，塔什干本身也为苏联日后研发的后续驱逐舰（如<b>48型基辅级</b>）提供了一个完美的样板。在2010年俄罗斯拍摄的纪录片《伟大的
+                                  卫国战争》第三集《塞瓦斯托波尔防线》中塔什干也有出场，在一个讲史上最大陆上战争的纪录片中黑海舰队多以支援角色出现，具体舰艇点名出现完全可以说
+                                  是殊荣，也说明了她在这场影响人类历史发展走向的战争中的特殊地位。
+                                  
+                              </p>
+                            </div>
+                            <div class="col-md-3">
+                              <div class="card">
+                                <img src="./resource/塔什干旧照.jpg" alt="..." class="card-img-top img-thumbnail">
+                                <p class="card-text PI">塔什干号驱逐领舰（1941年在塞瓦斯托波尔）</p>
+                              </div>
+                              <div class="card">
+                                <img src="./resource/塔什干沉没.jpg" alt="..." class="card-img-top img-thumbnail">
+                                <p class="card-text PI">塔什干号1942年坐沉时的情况</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                              <ul>
+                                <b>性能数据</b>
+                                <ul>
+                                  <li>排水量：2836（公试3216） 吨（标准）；4175 吨（满载）</li>
+                                  <li>长：139.7 米</li>
+                                  <li>宽：13.7 米</li>
+                                  <li>吃水：4.2 米</li>
+                                  <li>动力：110000 匹</li>
+                                  <li>装置：4 x 亚罗式锅炉；2 x 帕森斯式齿轮减速蒸汽轮机；2 x 推进器</li>
+                                  <li>航速：42.7 节</li>
+                                  <li>航程：5030 海里/20 节</li>
+                                  <li>编制：250 人</li>
+                                  <li>武器：3 x 双联装130mm/50 B-2LM主炮；1 x 双联76mm 39-K高炮；6 x 单装37mm 70-K高炮；6 x 12.7mm机枪；3 x 三联装533mm鱼雷发射器；2 x 深弹投射器；24 x 深水炸弹；76 x 水雷</li>
+                                </ul>
+                                </ul>
+                              </ul>
+                          </div>
+                        </div>
+                        
+                      </div>
+                    </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <img class="Cute" style="display: block;" id="Cute1" src="./resource/花园小人.png" data-bs-toggle="popover" data-bs-content="Honey~♡今天也要开心噢~♡">
+        <img class="Cute" id="Cute2" src="./resource/信浓小人.png" data-bs-toggle="popover" data-bs-content="欢迎回来，妾身已等候汝多时了。">
+        <img class="Cute" id="Cute3" src="./resource/塔什干小人.png" data-bs-toggle="popover" data-bs-content="看着塔什干就这么开心?……这样？随你高兴吧">
+        <script>
+          const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+          const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+      $(function(){
+        $(".Cute").click(function(){
+          let a=$(this)
+           a.css("bottom","10px")
+           var myTarget = setTimeout(function(){
+            a.css("bottom","0px")
+           },100)
+        })
+        $("#audio1").click(function(){
+          var mp3Url = "https://patchwiki.biligame.com/images/blhx/7/73/ms5dl8op4red9njfx31s0egs0z2gz6s.mp3";
+          var player = new Audio(mp3Url);
+          player.volume=0.3
+          player.play(); 
+        })
+        $("#audio2").click(function(){
+          var mp3Url = "https://patchwiki.biligame.com/images/blhx/1/14/f5adjmasmswu932qhiy5tkjjrqcf1lx.mp3";
+          var player = new Audio(mp3Url);
+          player.volume=0.3
+          player.play(); 
+        })
+        $("#audio3").click(function(){
+          var mp3Url = "https://patchwiki.biligame.com/images/blhx/a/a2/endwvrr5f6buasb1dritdjri2cqanvo.mp3";
+          var player = new Audio(mp3Url);
+          player.volume=0.3
+          player.play(); 
+        })
+        $("#audio4").click(function(){
+          var mp3Url = "https://patchwiki.biligame.com/images/blhx/e/ed/n7wiozlcf2iku3gqraf4to8i96vh6jh.mp3";
+          var player = new Audio(mp3Url);
+          player.volume=0.3
+          player.play(); 
+        })
+        $("#audio5").click(function(){
+          var mp3Url = "https://patchwiki.biligame.com/images/blhx/2/23/g43zxi6mrit0qidqaynim2ecekzys7q.mp3";
+          var player = new Audio(mp3Url);
+          player.volume=0.3
+          player.play(); 
+        })
+        $("#audio6").click(function(){
+          var mp3Url = "https://patchwiki.biligame.com/images/blhx/4/4d/r8nv3ucrokw6na2vmrx92rjliv5hi9x.mp3";
+          var player = new Audio(mp3Url);
+          player.volume=0.3
+          player.play(); 
+        })
+        $("#audio7").click(function(){
+          var mp3Url = "https://patchwiki.biligame.com/images/blhx/0/09/5rc0dhkdii3bywjak9o35qd0blpaya3.mp3";
+          var player = new Audio(mp3Url);
+          player.volume=0.3
+          player.play(); 
+        })
+        $("#audio8").click(function(){
+          var mp3Url = "https://patchwiki.biligame.com/images/blhx/5/5c/sk6rju5j7h8rzxhhqep128ywwme7pff.mp3";
+          var player = new Audio(mp3Url);
+          player.volume=0.3
+          player.play(); 
+        })
+        $("#audio9").click(function(){
+          var mp3Url = "https://patchwiki.biligame.com/images/blhx/a/a8/afzc67tl1dew7ob3qljb5xunn35iore.mp3";
+          var player = new Audio(mp3Url);
+          player.volume=0.3
+          player.play(); 
+        })
+        $("#audio10").click(function(){
+          var mp3Url = "https://patchwiki.biligame.com/images/blhx/9/91/gz8nfwow0egid1n17w2lw8shui3gmqm.mp3";
+          var player = new Audio(mp3Url);
+          player.volume=0.3
+          player.play(); 
+        })
+        $("#audio11").click(function(){
+          var mp3Url = "https://patchwiki.biligame.com/images/blhx/e/e2/qrne8o45677a2gcf46jgnaw1psk4je1.mp3";
+          var player = new Audio(mp3Url);
+          player.volume=0.3
+          player.play(); 
+        })
+        $("#audio12").click(function(){
+          var mp3Url = "https://patchwiki.biligame.com/images/blhx/2/2b/7rpfpx9hv7psw5xoloq5blpp3q1jglz.mp3";
+          var player = new Audio(mp3Url);
+          player.volume=0.3
+          player.play(); 
+        })
+        $("#audio13").click(function(){
+          var mp3Url = "https://patchwiki.biligame.com/images/blhx/9/99/c5d6kj49517uucj77yjwd1mnfrv0qon.mp3";
+          var player = new Audio(mp3Url);
+          player.volume=0.3
+          player.play(); 
+        })
+        var A1=document.getElementById("MyA1")
+        var A2=document.getElementById("MyA2")
+        $("#Show1").click(function(){
+             $("#Cute2").css("display","none")
+             $("#Cute3").css("display","none")
+             $("#Cute1").css("display","block")
+             A1.href="#Title2"
+             A2.href="#Title3"
+        })
+        $("#Show2").click(function(){
+             $("#Cute1").css("display","none")
+             $("#Cute3").css("display","none")
+             $("#Cute2").css("display","block")
+             A1.href="#Title4"
+             A2.href="#Title5"
+        })
+        $("#Show3").click(function(){
+             $("#Cute1").css("display","none")
+             $("#Cute2").css("display","none")
+             $("#Cute3").css("display","block")
+             A1.href="#Title6"
+             A2.href="#Title7"
+        })
+      })
+        </script>
+    </body>
+</html>
